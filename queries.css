@@ -6,10 +6,10 @@
     margin-bottom: 20px;
   }
   .me__text {
-    width: 100%;
+    width: 80%;
   }
   .projects__text {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
   }
   .modal {
@@ -46,5 +46,25 @@
   .operations__tab {
     margin: 0;
     border-radius: 0;
+  }
+  .header__title {
+    padding: 3rem 0;
+  }
+  .nav__logo {
+    height: 0;
+  }
+  .nav {
+    padding: 0;
+    justify-content: center;
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .nav__item {
+    margin-left: 0;
   }
 }
