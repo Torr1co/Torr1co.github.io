@@ -17,13 +17,13 @@ const tabsContent = document.querySelectorAll(".operations__content");
 const sendEmail = function (name, email, subject, message) {
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "fabriziotorricoacosta@gmail.com,",
+    Username: "fabriziotorricoacosta@gmail.com",
     Password: "vvhoeaomlcshxspu",
     To: "fabriziotorricoacosta@gmail.com",
-    From: `fabriziotorricoacosta@gmail.com`,
-    Subject: `${name} sent you a message, ${subject}`,
-    Body: `Name: ${name} <br/> Email:${email} <br/> Message:  ${message}`,
-  }).then((message) => alert("mail sent succesfully "));
+    From: "fabriziotorricoacosta@gmail.com",
+    Subject: `${name} contesto tu portfolio, ${subject}`,
+    Body: `Name: ${name} <br/> Email: ${email} <br/> Message:  ${message}`,
+  }).then((message) => alert(message));
 };
 
 const submitForm = function (e) {
