@@ -2,28 +2,53 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5TMPBJ4');</script>
-      <!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5TMPBJ4");
+    </script>
+    <!-- End Google Tag Manager -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMQJPKD4QC"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RMQJPKD4QC"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-RMQJPKD4QC');
+      gtag("config", "G-RMQJPKD4QC");
     </script>
 
-    
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
     <!-- End Favicon -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,24 +59,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="queries.css" />
     <title>Fabrizio Torrico | Web Developer</title>
 
     <script defer src="script.js"></script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TMPBJ4"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5TMPBJ4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header class="header">
       <nav class="nav">
         <img
-        src="img/logo.svg"
-          alt="Bankist logo"
+          src="img/logo.svg"
+          alt="Torrico logo"
           class="nav__logo"
           id="logo"
-          designer="Fabrizio"
           data-version-number="3.0"
         />
         <ul class="nav__links">
@@ -71,27 +101,30 @@
 
       <div class="header__title">
         <!-- <h1 onclick="alert('HTML alert')"> -->
-          <div class="header__text">
-            <h1>
-              <!-- Portfolio to
+        <div class="header__text">
+          <h1>
+            <!-- Portfolio to
                 <span class="highlight">escape </span>
                 from
                 <span class="highlight">Latin-America</span> -->
-                
-                Portfolio from <span class="highlight"> Fabrizio Torrico</span>
-              </h1>
-              <br>
-              <h4>
-                I'm an independent and passionate developer, specialized in building high quality websites and applications
-               <!--  Are you looking for a communicative front-end developer who works well in a team and above all has a passion for everything to do with web development (including React)? Let me know! I also have design experience and I am a specialist in digital marketing.<br> -->
-                <button class="btn--text btn--scroll-to">Read More &DownArrow;</button> 
-              </h4>
-          </div>
-          <div class="landscape-art">
-              <div class="sun"></div>
-              <div class="rocket" width="200" height="200"></div>
-          </div>
-              <!-- <img
+
+            Portfolio from <span class="highlight"> Fabrizio Torrico</span>
+          </h1>
+          <br />
+          <h4>
+            I'm an independent and passionate developer, specialized in building
+            high quality websites and applications
+            <!--  Are you looking for a communicative front-end developer who works well in a team and above all has a passion for everything to do with web development (including React)? Let me know! I also have design experience and I am a specialist in digital marketing.<br> -->
+            <button class="btn--text btn--scroll-to">
+              Read More &DownArrow;
+            </button>
+          </h4>
+        </div>
+        <div class="landscape-art">
+          <div class="sun"></div>
+          <div class="rocket"></div>
+        </div>
+        <!-- <img
           src="img/perfil3.png"
           class="header__img"
           alt="Minimalist bank items"
@@ -99,7 +132,6 @@
       </div>
       <div class="spacer layer1"></div>
     </header>
-
 
     <section class="section" id="section--1">
       <div class="section__title">
@@ -121,7 +153,13 @@
           </div> -->
           <h5 class="me__header">Hi I'm Fabrizio Torrico</h5>
           <p>
-            I'm a junior developer absolute passionate about computer science. Through constant practice and learning modern features, I'm able to produce custom, aesthetic software with high value and good ranking. Are you looking for a communicative front-end developer who works well in a team and above all has a big passion for computer science? Let me know! I also have digital marketing experience and I am a specialist in javascript(including React)
+            I'm a junior developer absolute passionate about computer science.
+            Through constant practice and learning modern features, I'm able to
+            produce custom, aesthetic software with high value and good ranking.
+            Are you looking for a communicative front-end developer who works
+            well in a team and above all has a big passion for computer science?
+            Let me know! I also have digital marketing experience and I am a
+            specialist in javascript(including React)
           </p>
         </div>
       </div>
@@ -146,7 +184,12 @@
             this app.
           </p>
           <br />
-          <a href="https://forkify-torr1co.netlify.app/#5ed6604591c37cdc054bcd09" target="_blank" class="btn">Check it out!</a>
+          <a
+            href="https://forkify-torr1co.netlify.app/#5ed6604591c37cdc054bcd09"
+            target="_blank"
+            class="btn"
+            >Check it out!</a
+          >
         </div>
         <img
           src="img/project-image-min.png"
@@ -170,14 +213,12 @@
             class="btn operations__tab operations__tab--active"
             data-tab="1"
           >
-             Security
+            Security
           </button>
           <button class="btn operations__tab" data-tab="2">
-             Attractive design
+            Attractive design
           </button>
-          <button class="btn operations__tab" data-tab="3">
-            Quality
-          </button>
+          <button class="btn operations__tab" data-tab="3">Quality</button>
         </div>
         <div
           class="
@@ -191,11 +232,11 @@
               <use xlink:href="img/icons.svg#icon-lock"></use>
             </svg>
           </div>
-          <h5 class="operations__header">
-            Fully secured projects
-          </h5>
+          <h5 class="operations__header">Fully secured projects</h5>
           <p>
-            projects protected with ssl certificates and backup. I also make sure to take advantage of design systems to scale sustainably and easily maintenance.
+            projects protected with ssl certificates and backup. I also make
+            sure to take advantage of design systems to scale sustainably and
+            easily maintenance.
           </p>
         </div>
 
@@ -209,7 +250,10 @@
             Every pixel made with maximun dedication
           </h5>
           <p>
-            Clean, Elegant & Responsive Designs, i have great capacity to establish credibility in your field by making great looking decisions and having good practices, but it’s also absolutely vital when it comes to SEO and improving your sales.
+            Clean, Elegant & Responsive Designs, i have great capacity to
+            establish credibility in your field by making great looking
+            decisions and having good practices, but it’s also absolutely vital
+            when it comes to SEO and improving your sales.
           </p>
         </div>
         <div class="operations__content operations__content--3">
@@ -218,11 +262,11 @@
               <use xlink:href="img/icons.svg#icon-bar-chart"></use>
             </svg>
           </div>
-          <h5 class="operations__header">
-            Analyisis and media integration
-          </h5>
+          <h5 class="operations__header">Analyisis and media integration</h5>
           <p>
-            I make sure that you can collect data so that you can approach your audience in the most effective way possible, forming easy integrations with social networks and google analytics
+            I make sure that you can collect data so that you can approach your
+            audience in the most effective way possible, forming easy
+            integrations with social networks and google analytics
           </p>
         </div>
       </div>
@@ -230,9 +274,7 @@
 
     <section class="section section--sign-up">
       <div class="section__title">
-        <h3 class="section__header">
-          Interested to work with me?
-        </h3>
+        <h3 class="section__header">Interested to work with me?</h3>
       </div>
       <button class="btn btn--show-modal">Let's Talk!</button>
     </section>
@@ -241,7 +283,8 @@
       <!-- <img src="img/logo_white.png" alt="Logo" class="footer__logo" /> -->
       <p class="footer__copyright">
         Created by
-        <a class="footer__link twitter-link" target="_blank" href="#">Fabrizio Torrico</a
+        <a class="footer__link twitter-link" target="_blank" href="#"
+          >Fabrizio Torrico</a
         >
       </p>
     </footer>
@@ -255,24 +298,23 @@
       </p>
       <form method="POST" class="modal__form">
         <label>First Name</label>
-        <input class="name" type="text" required/>
+        <input class="name" type="text" required />
         <label>Email Address</label>
-        <input class="email" type="email" required/>
+        <input class="email" type="email" required />
         <label>Subject</label>
-        <input class="subject" type="text" required/>
+        <input class="subject" type="text" required />
         <textarea
           required
           id="message"
           class="message"
           placeholder="Message"
         ></textarea>
-        <input type="submit" class="btn" value="Send Request &rarr;"></input>
+        <input type="submit" class="btn" value="Send Request &rarr;" />
       </form>
     </div>
     <div class="overlay hidden"></div>
 
     <!-- <script src="script.js"></script> -->
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
