@@ -17,9 +17,6 @@ const tabsContent = document.querySelectorAll(".operations__content");
 const sendEmail = function (name, email, subject, message) {
   Email.send({
     SecureToken: "59cd9116-97f6-4e58-838e-3e5e3b1ead00",
-    /* Host: "smtp.gmail.com",
-    Username: "torricofabrizio27@gmail.com",
-    Password: "jatdkrnkofxcdrsh", */
     To: "torricofabrizio27@gmail.com",
     From: "torricofabrizio27@gmail.com",
     Subject: `${name} contesto tu portfolio, ${subject}`,
