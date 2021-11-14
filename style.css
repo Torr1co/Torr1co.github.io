@@ -326,8 +326,8 @@ h4 {
 /*       Projects      */
 /*                     */
 .projects {
-  padding: 5rem;
-  gap: 1rem;
+  margin: 0 12rem;
+  gap: 4rem;
   border-radius: 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

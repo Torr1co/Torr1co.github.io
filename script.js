@@ -16,12 +16,17 @@ const tabsContent = document.querySelectorAll(".operations__content");
 
 const sendEmail = function (name, email, subject, message) {
   Email.send({
-    SecureToken: "9478b42-9351-419d-8cbd-4100742527b1",
-    To: "fabriziotorricoacosta@gmail.com",
-    From: "fabriziotorricoacosta@gmail.com",
+    SecureToken: "59cd9116-97f6-4e58-838e-3e5e3b1ead00",
+    /* Host: "smtp.gmail.com",
+    Username: "torricofabrizio27@gmail.com",
+    Password: "jatdkrnkofxcdrsh", */
+    To: "torricofabrizio27@gmail.com",
+    From: "torricofabrizio27@gmail.com",
     Subject: `${name} contesto tu portfolio, ${subject}`,
     Body: `Name: ${name} <br/> Email: ${email} <br/> Message:  ${message}`,
-  }).then((message) => alert(message));
+  }).then((message) => {
+    message == "OK" ? alert("message sent succesfully") : alert(message);
+  });
 };
 
 const submitForm = function (e) {
