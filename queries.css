@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+  .project {
+    grid-template-columns: auto;
+  }
+  .project__text--left {
+    grid-area: auto;
+  }
   .header__text {
     margin: 3rem;
   }
@@ -12,24 +18,29 @@
     width: 80%;
     margin-bottom: 20px;
   }
-  .modal {
-    padding: 1rem 1rem;
-  }
   .modal__header {
     font-size: 2.5rem;
   }
-  .modal p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
+
   .modal__form {
     gap: 1rem;
+    margin: 0;
   }
 }
 @media (max-width: 425px) {
-  .me,
-  .projects {
+  .modal p {
+    display: none;
+  }
+  .modal__header {
+    margin-bottom: 3rem;
+  }
+  .me {
     padding: 0;
+    margin: 0;
+  }
+  #section--3,
+  #section--2 {
+    margin: 0;
   }
   .nav {
     overflow: hidden;
@@ -66,5 +77,13 @@
   }
   .nav__item {
     margin-left: 0;
+  }
+
+  .modal__form input[type="submit"],
+  .message {
+    grid-column: auto;
+  }
+  .modal__form {
+    grid-template-columns: auto;
   }
 }
